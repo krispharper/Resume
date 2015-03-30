@@ -1,119 +1,96 @@
 \documentclass{article}
-\usepackage[top=.5in, bottom=.5in, left=.75in, right=.75in, headheight=.75in, headsep=0in, includehead, centering]{geometry}
+
+\usepackage[top=0.5in, bottom=1in, left=1in, right=1in, headheight=1in, headsep=0.2in, includehead, centering]{geometry}
 \usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
 \pagestyle{fancy}
+\pagenumbering{gobble}
+
 \renewcommand{\headrulewidth}{0pt}
 
 \begin{document}
-\lhead{ \large {\bf Kristopher Harper} \normalsize \\ \vspace{-6pt} \rule{\headwidth}{.75pt} \\ 5117 S Ellis Apt 2 \hfill 773.420.6972 \\ Chicago, IL \hfill kris.p.harper@gmail.com \\ 60615}
-\fancyfoot{}
+\lhead{\Large \textbf{Kris Harper} \normalsize \\ \vspace{-6pt} \rule{\headwidth}{.75pt} \\ 230 Ocean Pkwy Apt B7 \hfill 773.413.8816 \\ Brooklyn, NY \hfill kris.p.harper@gmail.com \\ 11218 \hfill \url{http://github.com/krispharper}}
+\lfoot{\rule{\headwidth}{.75pt} Version 1.1. Latest version at \url{http://github.com/krispharper/Resume}}
 
 \begin{flushleft}
 
-{\bf EDUCATION}\\
+\textbf{EDUCATION}\\
 \hspace{20pt}
-{\bf University of Chicago} Chicago, IL
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
+\textbf{University of Chicago} Chicago, IL
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
 \item B.A. in Mathematics with Honors, June 2011
 \item Minor in Physics
-\item GPA 3.5/4.0
-\end{list}
+\end{itemize}
+\hspace{20pt}
+\textbf{CFA Charter} - Passed all three exam levels, June 2014\\
+\vspace{6pt}
+\hspace{20pt}
+\textbf{FRM Designation} - Currently studying
 
-{\bf WORK EXPERIENCE}\\
+\vspace{5pt}
+\textbf{WORK EXPERIENCE}\\
 \hspace{20pt}
-{\bf Research Technician and Web Developer} \hfill University of Alaska Fairbanks\\
+\textbf{Senior Software Developer (Vice President)} \hfill Annaly Capital Management\\
 \hspace{20pt}
-{\it Department of Planning, Analysis and Institutional Research} \hfill December 2008 to Present\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Analyze and manage data, specifically by building and maintaining a web interface for user data access
-\item Developed the UAF Factbook project for online, dynamic data queries
-\item Work regularly on location in a recurring temporary position, as well as remotely from Chicago
-\end{list}
+\textit{Software Development Team} \hfill June 2011 to Present\\
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
+\item Develop on a front office portfolio management system used for MBS, swaps, and rates products
+\item Code against PolyPaths and Intex for mortgage analytics and scenario analysis
+\item Developed a FIX message routing system which processes multiple incoming streams and updates Bloomberg TOMS with trade data
+\item Extensive experience with Bloomberg including Data License, TOMS, AIM, and Core Terminal
+\item Full stack developer in a Microsoft environment using C$\sharp$, SQL Server, WCF, and WinForms
+\end{itemize}
  
 \hspace{20pt}
-{\bf Young Scholars Program Instructor} \hfill University of Chicago\\
+\textbf{Research Technician and Web Developer} \hfill University of Alaska Fairbanks\\
 \hspace{20pt}
-{\it Department of Mathematics} \hfill September 2008 to June 2011\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Taught middle and high school students, frequently of low-income and underrepresented backgrounds
-\item Educated in a small group setting, teaching proof-based mathematics topics not typically addressed in a standard curriculum
-\item Participated in both summer and year long programs for three years
-\end{list}
+\textit{Department of Planning, Analysis and Institutional Research} \hfill December 2008 to June 2011\\
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
+\item Analyzed and managed data, specifically by building and maintaining a web interface in PHP with a MySQL database for user data access
+\item Created a rudimentary API for data retrieval using SAS to interface with an Oracle database
+\item Developed the UAF Factbook project for online, dynamic data queries
+\end{itemize}
+ 
+\hspace{20pt}
+\textbf{Undergraduate Research Position} \hfill University of Chicago\\
+\hspace{20pt}
+\textit{Department of Mathematics} \hfill Summers 2009, 2010\\
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
+\item Participated in an undergraduate research program, with an emphasis on algebraic number theory and algebraic topology
+\item Paper title: \textit{Explorations of Sperner's Lemma and its Connections to Brouwer's Fixed Point Theorem}
+\item Paper title: \textit{Group Cohomology and Kummer Theory}
+\end{itemize}
 
 \hspace{20pt}
-{\bf Teaching Assistant} \hfill University of Chicago\\
+\textbf{Undergraduate Research Position} \hfill University of Washington Seattle\\
 \hspace{20pt}
-{\it Department of Mathematics} \hfill September 2008 to June 2011\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Duties including grading as well as holding office hours and basic instruction
-\end{list}
-
-\hspace{20pt}
-{\bf Undergraduate Research Position} \hfill University of Chicago\\
-\hspace{20pt}
-{\it Department of Mathematics} \hfill Summers 2009, 2010\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Participated in an undergraduate research program, with an emphasis on algebraic number theory
-\item Paper title: {\it Explorations of Sperner's Lemma and its Connections to Brouwer's Fixed Point Theorem}
-\item Paper title: {\it Group Cohomology and Kummer Theory}
-\end{list}
-
-\hspace{20pt}
-{\bf Undergraduate Research Position} \hfill University of Washington\\
-\hspace{20pt}
-{\it Department of Mathematics} \hfill Summer 2008\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
+\textit{Department of Mathematics} \hfill Summer 2008\\
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
 \item Performed independent undergraduate research in mathematics
-\item Paper title: {\it On the Recoverability of Amalgamated and Separated Graphs Using Medial Graphs}
-\end{list}
+\item Paper title: \textit{On the Recoverability of Amalgamated and Separated Graphs Using Medial Graphs}
+\end{itemize}
 
 \hspace{20pt}
-{\bf Undergraduate Research Assistant} \hfill University of Alaska Fairbanks\\
+\textbf{Undergraduate Research Assistant} \hfill University of Alaska Fairbanks\\
 \hspace{20pt}
-{\it Department of Planning, Analysis and Institutional Research} \hfill May 2007 to September 2007\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
+\textit{Department of Planning, Analysis and Institutional Research} \hfill May 2007 to September 2007\\
+\begin{itemize}[leftmargin=50pt,itemsep=-2pt]
 \item Wrote and developed SAS code to analyze data and generate reports
 \item Constructed a peer institution comparison project to examine and evaluate similar data sets
-\end{list}
+\end{itemize}
 
-{\bf LEADERSHIP EXPERIENCE}\\
+\vspace{5pt}
+\textbf{SKILLS}\\
 \hspace{20pt}
-{\bf Habitat for Humanity} \hfill 2008-2011\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Chapter board member and webmaster. Led trips, organized fundraisers and managed the website
-\end{list}
-
+\textit{Computer Languages:} C$\sharp$, SQL, Python, PowerShell, bash, HTML and CSS, \LaTeX, SAS\\
 \hspace{20pt}
-{\bf University of Chicago Orientation Aide} \hfill September 2008\\
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Led house trips, activities and events for first-year orientation
-\end{list}
-
+\textit{Software:} vim, Visual Studio, git, TFS, PolyPaths, Bloomberg, AIM, TOMS, Excel\\
 \hspace{20pt}
-{\bf Boy Scouts of America} \hfill 1999 to 2007
-\vspace{-6pt}
-\begin{list}{\labelitemi}{\leftmargin=50pt}\setlength{\itemsep}{-2pt}
-\item Earned the rank of Eagle Scout by leading and participating in service activities and troop outings
-\end{list}
-
-{\bf SKILLS}\\
+\textit{Frameworks and Libraries:} WCF, WinForms, QuickFIX, JQuery, Nlog, LINQ To SQL\\
 \hspace{20pt}
-{\it Computer Languages:} PHP, C, C++, SQL, Scheme, bash, SAS, HTML and CSS, \LaTeX\\
-\hspace{20pt}
-{\it Software:} Microsoft Office, Toad, QueryBrowser, SAS, Mathematica, vim\\
-\hspace{20pt}
-{\it Operating Systems:} OS X, Linux, Windows, some UNIX\\
-\hspace{20pt}
-{\it Language:} Competent in reading French
+\textit{Operating Systems:} OS X, Linux, Windows, some UNIX\\
 
 \end{flushleft}
 
