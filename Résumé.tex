@@ -1,6 +1,6 @@
 \documentclass{article}
 
-\usepackage[top=0.5in, bottom=1in, left=1in, right=1in, headheight=1in, headsep=0.2in, includehead, centering]{geometry}
+\usepackage[top=0.25in, bottom=0.5in, left=0.5in, right=0.5in, headheight=1in, footskip=0.25in, headsep=0.1in, includehead, includefoot, centering]{geometry}
 \usepackage{fancyhdr}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -12,7 +12,7 @@
 
 \begin{document}
 \lhead{\Large \textbf{Kris Harper} \normalsize \\ \vspace{-6pt} \rule{\headwidth}{.75pt} \\ 230 Ocean Pkwy Apt B7 \hfill 773.413.8816 \\ Brooklyn, NY \hfill kris.p.harper@gmail.com \\ 11218 \hfill \url{http://github.com/krispharper}}
-\lfoot{\rule{\headwidth}{.75pt} Version 1.1. Latest version at \url{http://github.com/krispharper/Resume}}
+\lfoot{\rule{\headwidth}{.75pt} Version 1.2. Latest version at \url{http://github.com/krispharper/Resume}}
 
 \begin{flushleft}
 
@@ -36,9 +36,9 @@
 \hspace{20pt}
 \textit{Software Development Team} \hfill June 2011 to Present\\
 \begin{itemize}[leftmargin=50pt,itemsep=-2pt]
-\item Develop on a front office portfolio management system used for MBS, swaps, and rates products
+\item Develop for a front office portfolio management system used for agency and non-agency MBS, TBAs, CMBS, swaps, rates products, and repo. Written in C$\sharp$ with DevExpress controls, utilizing WCF and SQL Server
 \item Code against PolyPaths and Intex for mortgage analytics and scenario analysis
-\item Developed a FIX message routing system which processes multiple incoming streams and updates Bloomberg TOMS with trade data
+\item Designed and developed a FIX message routing system which processes multiple incoming trade feeds and updates Bloomberg TOMS with trade data via an outgoing FIX feed. Created a thin client to display sent and received trade data, allowing trade aggregation and replay
 \item Extensive experience with Bloomberg including Data License, TOMS, AIM, and Core Terminal
 \item Full stack developer in a Microsoft environment using C$\sharp$, SQL Server, WCF, and WinForms
 \end{itemize}
@@ -58,7 +58,7 @@
 \hspace{20pt}
 \textit{Department of Mathematics} \hfill Summers 2009, 2010\\
 \begin{itemize}[leftmargin=50pt,itemsep=-2pt]
-\item Participated in an undergraduate research program, with an emphasis on algebraic number theory and algebraic topology
+\item Participated in an undergraduate research program, with an emphasis on algebraic number theory topology
 \item Paper title: \textit{Explorations of Sperner's Lemma and its Connections to Brouwer's Fixed Point Theorem}
 \item Paper title: \textit{Group Cohomology and Kummer Theory}
 \end{itemize}
@@ -83,14 +83,18 @@
 
 \vspace{5pt}
 \textbf{SKILLS}\\
-\hspace{20pt}
-\textit{Computer Languages:} C$\sharp$, SQL, Python, PowerShell, bash, HTML and CSS, \LaTeX, SAS\\
-\hspace{20pt}
-\textit{Software:} vim, Visual Studio, git, TFS, PolyPaths, Bloomberg, AIM, TOMS, Excel\\
-\hspace{20pt}
-\textit{Frameworks and Libraries:} WCF, WinForms, QuickFIX, JQuery, Nlog, LINQ To SQL\\
-\hspace{20pt}
-\textit{Operating Systems:} OS X, Linux, Windows, some UNIX\\
+\begin{itemize}[leftmargin=20pt,itemsep=-2pt]
+\item[] \textit{Programming Languages:} C$\sharp$, SQL, Python, PowerShell, bash, HTML and CSS, \LaTeX\\
+    \begin{itemize}[leftmargin=20pt,itemsep=-2pt,nosep]
+        \item[] \textit{Some experience with:} Ruby, JavaScript, Haskell, Scheme, C, C++, PHP, SAS
+    \end{itemize}
+\item[] \textit{Frameworks and Libraries:} .NET, WCF, DevExpress, WinForms, QuickFIX, JQuery, Nlog\\
+    \begin{itemize}[leftmargin=20pt,itemsep=-2pt,nosep]
+        \item[] \textit{Some experience with:} Rails, WPF, GTK, Intex
+    \end{itemize}
+\item[] \textit{Software:} vim, Visual Studio, git, TFS, PolyPaths, Bloomberg, AIM, TOMS, Excel\\
+\item[] \textit{Operating Systems:} OS X, Linux, Windows, some UNIX\\
+\end{itemize}
 
 \end{flushleft}
 
